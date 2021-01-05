@@ -6,14 +6,15 @@ export default class Index extends React.Component {
   render() {
     return (
       <div>
-        <h1>Hi people</h1>
+        <h1>お問い合わせ</h1>
         <p>
-          This is an example site integrating Netlify’s form handling with Gatsby
+          お電話でのお問い合わせは0836-22-2631まで
         </p>
+        <p>※ただし、医療相談や予約、医師・看護師等への直接のご意見はお受けできませんので、予めご了承下さい。</p>
         <ul>
-          <li><Link to="/contact/">Basic contact form</Link></li>
-          <li><Link to="/file-upload/">Form with file upload</Link></li>
-          <li><Link to="/recaptcha/">Form with reCAPTCHA 2</Link></li>
+          {/* <li><Link to="/contact/">Basic contact form</Link></li>
+          <li><Link to="/file-upload/">Form with file upload</Link></li> */}
+          <li><Link to="/recaptcha/">メールによるお問い合わせはこちら</Link></li>
         </ul>
       </div>
     );

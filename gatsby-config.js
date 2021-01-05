@@ -1,7 +1,7 @@
 
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Netlify Form Integration`
+    title: `お問い合わせ`
   },
   plugins: [`gatsby-plugin-react-helmet`]
 };

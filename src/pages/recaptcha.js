@@ -42,7 +42,7 @@ export default class Contact extends React.Component {
   render() {
     return (
       <div>
-        <h1>reCAPTCHA 2</h1>
+        <h1>お問い合わせ</h1>
         <form
           name="contact-recaptcha"
           method="post"
@@ -52,23 +52,23 @@ export default class Contact extends React.Component {
           onSubmit={this.handleSubmit}
         >
           <noscript>
-            <p>This form won’t work with Javascript disabled</p>
+            <p>こちらのページを表示するために、ブラウザのJavaScriptの設定を有効にしてください。</p>
           </noscript>
           <p>
             <label>
-              Your name:<br />
+              お名前:<br />
               <input type="text" name="name" onChange={this.handleChange} />
             </label>
           </p>
           <p>
             <label>
-              Your email:<br />
+              メールアドレス:<br />
               <input type="email" name="email" onChange={this.handleChange} />
             </label>
           </p>
           <p>
             <label>
-              Message:<br />
+              お問い合わせ内容:<br />
               <textarea name="message" onChange={this.handleChange} />
             </label>
           </p>
@@ -78,7 +78,7 @@ export default class Contact extends React.Component {
             onChange={this.handleRecaptcha}
           />
           <p>
-            <button type="submit">Send</button>
+            <button type="submit">送信</button>
           </p>
         </form>
       </div>
